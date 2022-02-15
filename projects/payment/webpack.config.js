@@ -32,7 +32,7 @@ module.exports = {
         name: "payment",
         filename: "paymentRemoteEntry.js",
         exposes: {
-          './MfefeatureModule': './projects/mfe1/src/app/mfefeature/mfefeature.module.ts',
+          './MfefeatureModule': './projects/payment/src/app/mfefedration/mfefedration.module.ts',
               },        
         
         // For hosts (please adjust)

@@ -9,7 +9,7 @@ const routes: Routes = [{
 },
 {
   path: 'payment',
-  loadChildren: () => import("payment/MfefeatureModule").then((m) => m.MfefeatureModule)
+  loadChildren: () => import("projects/payment/src/app/mfefedration/mfefedration.module").then((m) => m.MfefedrationModule)
 }];
 
 @NgModule({
